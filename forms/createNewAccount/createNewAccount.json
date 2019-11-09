@@ -16,7 +16,16 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
-        "inptCreateName.json"
+        "inptCreateFirstName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "inptCreateLastName.json"
       ]
     }, 
     {
@@ -35,24 +44,6 @@
         "createNewAccount", 
         "Elements", 
         "inptCreateEmail.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "createNewAccount", 
-        "Elements", 
-        "inptCreatePassword1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "createNewAccount", 
-        "Elements", 
-        "inptCreatePassword2.json"
       ]
     }, 
     {
@@ -80,6 +71,24 @@
         "createNewAccount", 
         "Elements", 
         "inptCreateState.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "inptCreatePassword1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "inptCreatePassword2.json"
       ]
     }, 
     {

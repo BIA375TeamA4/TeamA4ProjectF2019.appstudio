@@ -32,7 +32,7 @@
   "id": "inptCreatePhoneNumber", 
   "inputType": "text", 
   "inputmode": "", 
-  "left": 168, 
+  "left": 8, 
   "leftText": "", 
   "mAll": "", 
   "mBottom": "", 
@@ -80,9 +80,9 @@
   "spellcheck": "true", 
   "step": "", 
   "style": "", 
-  "top": 128, 
+  "top": 168, 
   "validation": "", 
   "value": "", 
   "valueCols": 10, 
-  "width": 152
+  "width": 128
 }
