@@ -14,9 +14,27 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "map", 
+        "exampleDRAWfromOrmond", 
         "Elements", 
-        "GoogleMap1.json"
+        "inptType2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "exampleDRAWfromOrmond", 
+        "Elements", 
+        "btnSubmit2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "exampleDRAWfromOrmond", 
+        "Elements", 
+        "txtResults.json"
       ]
     }
   ], 
@@ -26,7 +44,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "map", 
+  "id": "exampleDRAWfromOrmond", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

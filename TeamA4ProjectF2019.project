@@ -26,6 +26,14 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "createNewAccount", 
+            "createNewAccount.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "popUp", 
             "popUp.json"
           ]
@@ -45,6 +53,38 @@
             "diary", 
             "diary.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "budget", 
+            "budget.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "exampleDRAWfromOrmond", 
+            "exampleDRAWfromOrmond.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "homePage", 
+            "homePage.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "testDB", 
+            "testDB.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -59,7 +99,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "Form1", 
+      "firstform": "loginForm", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

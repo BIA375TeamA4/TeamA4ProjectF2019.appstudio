@@ -14,9 +14,36 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "map", 
+        "createNewAccount", 
         "Elements", 
-        "GoogleMap1.json"
+        "Input1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "Input2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "Input3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "Input4.json"
       ]
     }
   ], 
@@ -26,7 +53,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "map", 
+  "id": "createNewAccount", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
