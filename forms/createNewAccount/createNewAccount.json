@@ -16,7 +16,7 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
-        "Input1.json"
+        "inptCreateName.json"
       ]
     }, 
     {
@@ -25,7 +25,7 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
-        "Input2.json"
+        "inptCreateEmail.json"
       ]
     }, 
     {
@@ -34,7 +34,7 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
-        "Input3.json"
+        "inptCreatePassword1.json"
       ]
     }, 
     {
@@ -43,7 +43,16 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
-        "Input4.json"
+        "inptCreatePassword2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "btnSubmitCreateInfo.json"
       ]
     }
   ], 
