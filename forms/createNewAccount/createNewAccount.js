@@ -9,7 +9,7 @@ btnSubmitCreateInfo.onclick=function(){
     let createPassword = inptCreatePassword1.value
     let verifyPassword = inptCreatePassword2.value
 
-    let query = "INSERT into user (first_name, last_name, email, phone_number, city, state, username, password) values ('createFirstName', createLastName, createEmail, )"
+    let query = "INSERT into user (first_name, last_name, email, phone_number, city, state, username, password) values (createFirstName, createLastName, createEmail, createPhone, createCity, createState, createUserName, createPassword)"
     
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + query)
     
