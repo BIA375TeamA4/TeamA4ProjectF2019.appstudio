@@ -25,6 +25,15 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
+        "inptCreateUserName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
         "inptCreateEmail.json"
       ]
     }, 
@@ -44,6 +53,33 @@
         "createNewAccount", 
         "Elements", 
         "inptCreatePassword2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "inptCreatePhoneNumber.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "inptCreateCity.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "inptCreateState.json"
       ]
     }, 
     {
