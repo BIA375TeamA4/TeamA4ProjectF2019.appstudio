@@ -32,7 +32,7 @@
   "id": "inptCreateState", 
   "inputType": "text", 
   "inputmode": "", 
-  "left": 256, 
+  "left": 168, 
   "leftText": "", 
   "mAll": "", 
   "mBottom": "", 
@@ -84,5 +84,5 @@
   "validation": "", 
   "value": "", 
   "valueCols": 10, 
-  "width": 64
+  "width": 88
 }

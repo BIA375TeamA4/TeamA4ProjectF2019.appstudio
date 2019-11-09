@@ -52,15 +52,6 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
-        "inptCreatePhoneNumber.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "createNewAccount", 
-        "Elements", 
         "inptCreateCity.json"
       ]
     }, 

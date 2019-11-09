@@ -2,14 +2,18 @@ btnSubmitCreateInfo.onclick=function(){
     let createFirstName = inptCreateFirstName.value
     let createLastName = inptCreateLastName.value
     let createEmail = inptCreateEmail.value
-    let createPhone = inptCreatePhoneNumber.value
     let createCity = inptCreateCity.value
     let createState = inptCreateState.value
     let createUserName = inptCreateUserName.value
     let createPassword = inptCreatePassword1.value
     let verifyPassword = inptCreatePassword2.value
+    
+      if (createPassword !== verifyPassword
 
-    let query = "INSERT into user (first_name, last_name, email, phone_number, city, state, username, password) values (createFirstName, createLastName, createEmail, createPhone, createCity, createState, createUserName, createPassword)"
+    let query = "INSERT into user (first_name, last_name, email, city, state, username, password) values ("createFirstName + "'" + createLastName + "'" + createEmail + "'" + createCity + "'" + createState + "'" + createUserName + "'" + createPassword + "'" ")
+    
+        let query = "SELECT * FROM user WHERE username = " + '"' + username + '"' " AND password = " + '"' + password + '"'
+
     
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + query)
     
