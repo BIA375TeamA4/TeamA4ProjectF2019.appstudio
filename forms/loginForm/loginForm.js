@@ -20,7 +20,7 @@ btnLogin.onclick=function(){
      // 2. create a 'SELECT WHERE' query
     let username = inptUsername.value
     let password = inptPassword.value
-    let query = "SELECT * FROM user WHERE username = " + '"' + username + '"' " AND password = " + '"' + password + '"'
+    let query = "SELECT * FROM user WHERE username = " + '"' + username + '"' + "AND password = " + '"' + password + '"'
     
     // 3. run an AJAX call, which runs the query on the database server.
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + query)
@@ -39,7 +39,7 @@ btnLogin.onclick=function(){
         console.log(results)   // this shows the array of arrays
         
     if (results.length == 0)   // the array is empty so no results returned             
-        NSB.MsgBox("There are no pets of that type.")
+        NSB.MsgBox("Didn't Work.")
     else {        
         /* This is what results look like: one big array with 3
          little arrays: 
