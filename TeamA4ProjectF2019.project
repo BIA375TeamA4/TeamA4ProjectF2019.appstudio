@@ -34,6 +34,14 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "homePage", 
+            "homePage.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "popUp", 
             "popUp.json"
           ]
@@ -68,14 +76,6 @@
             "forms", 
             "exampleDRAWfromOrmond", 
             "exampleDRAWfromOrmond.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "homePage", 
-            "homePage.json"
           ]
         }, 
         {
