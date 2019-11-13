@@ -14,54 +14,45 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "loginForm", 
+        "newItem", 
         "Elements", 
-        "inptUsername1.json"
+        "btnHome2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginForm", 
+        "newItem", 
         "Elements", 
-        "inptPassword1.json"
+        "btnMap2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginForm", 
+        "newItem", 
         "Elements", 
-        "btnLogin1.json"
+        "btnNewItem2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginForm", 
+        "newItem", 
         "Elements", 
-        "txaWelcome1.json"
+        "btnEntry2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginForm", 
+        "newItem", 
         "Elements", 
-        "btnCreateNewAccount1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "loginForm", 
-        "Elements", 
-        "lblNoAccount1.json"
+        "btnProfile2.json"
       ]
     }
   ], 
@@ -71,7 +62,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "loginForm", 
+  "id": "newItem", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

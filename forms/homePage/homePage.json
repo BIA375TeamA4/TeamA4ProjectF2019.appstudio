@@ -9,7 +9,71 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "homePage", 
+        "Elements", 
+        "medProfilePicture.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "homePage", 
+        "Elements", 
+        "btnHome.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "homePage", 
+        "Elements", 
+        "btnMap.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "homePage", 
+        "Elements", 
+        "btnNewItem.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "homePage", 
+        "Elements", 
+        "btnEntry.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "homePage", 
+        "Elements", 
+        "btnProfile.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "homePage", 
+        "Elements", 
+        "Listgroup1.json"
+      ]
+    }
+  ], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 

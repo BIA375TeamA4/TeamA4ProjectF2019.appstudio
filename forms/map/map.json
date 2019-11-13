@@ -16,7 +16,52 @@
         "forms", 
         "map", 
         "Elements", 
-        "GoogleMap1.json"
+        "btnHome1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "map", 
+        "Elements", 
+        "btnMap1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "map", 
+        "Elements", 
+        "btnNewItem1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "map", 
+        "Elements", 
+        "btnEntry1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "map", 
+        "Elements", 
+        "btnProfile1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "map", 
+        "Elements", 
+        "GoogleMap.json"
       ]
     }
   ], 
