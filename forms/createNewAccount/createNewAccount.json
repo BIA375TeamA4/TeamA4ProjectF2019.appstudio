@@ -16,7 +16,7 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
-        "Input1.json"
+        "inptCreateFirstName.json"
       ]
     }, 
     {
@@ -25,7 +25,7 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
-        "Input2.json"
+        "inptCreateLastName.json"
       ]
     }, 
     {
@@ -34,7 +34,7 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
-        "Input3.json"
+        "inptCreateUserName.json"
       ]
     }, 
     {
@@ -43,7 +43,52 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
-        "Input4.json"
+        "inptCreateEmail.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "inptCreateCity.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "inptCreateState.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "inptCreatePassword1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "inptCreatePassword2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "btnSubmitCreateInfo.json"
       ]
     }
   ], 
