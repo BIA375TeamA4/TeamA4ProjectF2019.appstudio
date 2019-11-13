@@ -16,7 +16,7 @@
         "forms", 
         "loginForm", 
         "Elements", 
-        "inptUsername.json"
+        "inptUsername1.json"
       ]
     }, 
     {
@@ -25,7 +25,7 @@
         "forms", 
         "loginForm", 
         "Elements", 
-        "inptPassword.json"
+        "inptPassword1.json"
       ]
     }, 
     {
@@ -34,7 +34,7 @@
         "forms", 
         "loginForm", 
         "Elements", 
-        "btnLogin.json"
+        "btnLogin1.json"
       ]
     }, 
     {
@@ -43,7 +43,7 @@
         "forms", 
         "loginForm", 
         "Elements", 
-        "txaWelcome.json"
+        "txaWelcome1.json"
       ]
     }, 
     {
@@ -52,7 +52,7 @@
         "forms", 
         "loginForm", 
         "Elements", 
-        "btnCreateNewAccount.json"
+        "btnCreateNewAccount1.json"
       ]
     }, 
     {
@@ -61,7 +61,7 @@
         "forms", 
         "loginForm", 
         "Elements", 
-        "lblNoAccount.json"
+        "lblNoAccount1.json"
       ]
     }
   ], 
