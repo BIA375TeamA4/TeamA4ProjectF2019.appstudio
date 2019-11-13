@@ -90,6 +90,15 @@
         "Elements", 
         "btnSubmitCreateInfo.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "Button3.json"
+      ]
     }
   ], 
   "class": "", 

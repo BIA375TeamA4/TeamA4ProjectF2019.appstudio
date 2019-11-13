@@ -43,24 +43,6 @@
         "forms", 
         "loginForm", 
         "Elements", 
-        "lblWelcome.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "loginForm", 
-        "Elements", 
-        "lblResult.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "loginForm", 
-        "Elements", 
         "txaWelcome.json"
       ]
     }, 
@@ -70,7 +52,16 @@
         "forms", 
         "loginForm", 
         "Elements", 
-        "Button1.json"
+        "btnCreateNewAccount.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "loginForm", 
+        "Elements", 
+        "lblNoAccount.json"
       ]
     }
   ], 
