@@ -16,7 +16,7 @@
         "forms", 
         "homePage", 
         "Elements", 
-        "btn1.json"
+        "btnHome.json"
       ]
     }, 
     {
@@ -25,7 +25,7 @@
         "forms", 
         "homePage", 
         "Elements", 
-        "btn2.json"
+        "btnMap.json"
       ]
     }, 
     {
@@ -34,7 +34,7 @@
         "forms", 
         "homePage", 
         "Elements", 
-        "btn3.json"
+        "btnNewItem.json"
       ]
     }, 
     {
@@ -43,7 +43,7 @@
         "forms", 
         "homePage", 
         "Elements", 
-        "btn4.json"
+        "btnEntry.json"
       ]
     }, 
     {
@@ -52,7 +52,7 @@
         "forms", 
         "homePage", 
         "Elements", 
-        "btn5.json"
+        "btnProfile.json"
       ]
     }
   ], 

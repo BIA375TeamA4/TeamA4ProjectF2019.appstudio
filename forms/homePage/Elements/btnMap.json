@@ -1,7 +1,7 @@
 {
   "!type": "Button_bs4", 
   "ChangeForm": "", 
-  "appearance": " btn-secondary", 
+  "appearance": " btn-danger", 
   "backgroundColor": "", 
   "badge": "", 
   "badgeAppearance": " badge-info", 
@@ -28,8 +28,8 @@
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
-  "id": "btn3", 
-  "left": 136, 
+  "id": "btnMap", 
+  "left": 72, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -57,10 +57,10 @@
   "popTitle": "Title", 
   "right": "auto", 
   "script": "", 
-  "size": " btn-md", 
+  "size": " btn-sm", 
   "style": "", 
   "toggleControl": "", 
   "top": 424, 
-  "value": "Button", 
+  "value": "Map", 
   "width": 56
 }
