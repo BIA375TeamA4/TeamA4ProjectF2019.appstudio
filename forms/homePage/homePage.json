@@ -16,6 +16,15 @@
         "forms", 
         "homePage", 
         "Elements", 
+        "medProfilePicture.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "homePage", 
+        "Elements", 
         "btnHome.json"
       ]
     }, 
@@ -53,6 +62,15 @@
         "homePage", 
         "Elements", 
         "btnProfile.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "homePage", 
+        "Elements", 
+        "Listgroup1.json"
       ]
     }
   ], 
