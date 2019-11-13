@@ -14,63 +14,45 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "newItem", 
         "Elements", 
-        "medProfilePicture.json"
+        "btnHome2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "newItem", 
         "Elements", 
-        "btnHome.json"
+        "btnMap2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "newItem", 
         "Elements", 
-        "btnMap.json"
+        "btnNewItem2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "newItem", 
         "Elements", 
-        "btnNewItem.json"
+        "btnEntry2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "newItem", 
         "Elements", 
-        "btnEntry.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "homePage", 
-        "Elements", 
-        "btnProfile.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "homePage", 
-        "Elements", 
-        "Listgroup1.json"
+        "btnProfile2.json"
       ]
     }
   ], 
@@ -80,7 +62,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "homePage", 
+  "id": "newItem", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

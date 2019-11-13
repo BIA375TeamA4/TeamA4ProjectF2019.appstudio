@@ -20,8 +20,7 @@ btnLogin.onclick=function(){
         results = JSON.parse(req1.responseText)
         console.log(results)   // this shows the array of arrays
         
-    if (results.length == 0)   // the array is empty so no username or password is present for this user.         
-        lblNoAccount.value = "There is no username or password associated with this account, please click Create New Account."
+
     else {        
         /* 
         This is what results look like: one big array with 3

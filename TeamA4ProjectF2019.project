@@ -34,8 +34,8 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "popUp", 
-            "popUp.json"
+            "homePage", 
+            "homePage.json"
           ]
         }, 
         {
@@ -50,16 +50,24 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "diary", 
-            "diary.json"
+            "newItem", 
+            "newItem.json"
           ]
         }, 
         {
           "!type": "External", 
           "file": [
             "forms", 
-            "budget", 
-            "budget.json"
+            "entries", 
+            "entries.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "popUp", 
+            "popUp.json"
           ]
         }, 
         {
@@ -68,14 +76,6 @@
             "forms", 
             "exampleDRAWfromOrmond", 
             "exampleDRAWfromOrmond.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "homePage", 
-            "homePage.json"
           ]
         }, 
         {
