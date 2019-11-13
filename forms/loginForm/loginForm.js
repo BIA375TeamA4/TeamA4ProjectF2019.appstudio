@@ -1,28 +1,10 @@
-/*
-What does the result of the query that is returned to the app 
-look like? 
-
-We'll take a look at a demo that uses a SELECT query to get the names
-of all the pets of a type chosen by the user. 
-The algorithm:
- 1. get the 'type' of pet the user wants to check the database for.
- 2. create a 'SELECT WHERE' query 
- 3. run an AJAX call, which runs the query on the database server.
-    > if the transit of the request works, parse the results returned. 
-      > if the results are empty, that means there are no pets of 
-        that type in the DB
-      > if the results are not empty, show the results
-    > or if the transit of the request didn't work, tell the user there
-      was an error in transit
-*/
-
 btnLogin.onclick=function(){
-     // 2. create a 'SELECT WHERE' query
+     // create a 'SELECT WHERE' query
     let username = inptUsername.value
     let password = inptPassword.value
     let query = "SELECT * FROM user WHERE username = " + '"' + username + '"' + "AND password = " + '"' + password + '"'
     
-    // 3. run an AJAX call, which runs the query on the database server.
+    // run an AJAX call, which runs the query on the database server.
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + query)
     
     if (req1.status == 200) { //transit worked.
@@ -38,10 +20,11 @@ btnLogin.onclick=function(){
         results = JSON.parse(req1.responseText)
         console.log(results)   // this shows the array of arrays
         
-    if (results.length == 0)   // the array is empty so no results returned             
-        NSB.MsgBox("Didn't Work.")
+    if (results.length == 0)   // the array is empty so no username or password is present for this user.         
+        lblNoAccount.value = "There is no username or password associated with this account, please click Create New Account."
     else {        
-        /* This is what results look like: one big array with 3
+        /* 
+        This is what results look like: one big array with 3
          little arrays: 
          [[47,"Paul","dog"],[23,"Marty","dog"],[34,"Jack","horse"]]  
          array 0             array 1            array 2
@@ -54,10 +37,14 @@ btnLogin.onclick=function(){
          Let's take a look:
         */
         console.log("the parsed JSON is " + results)
+        /*
         console.log("eg. temp[0] or first row in big array is " + results[0])
         console.log("to get to Paul, need results[0][1]: " + results[0][1])
-
-        // So now output the names of all the dogs
+        */
+        ChangeForm(homePage)
+       
+       
+       // So now output the names of all the dogs
         let message = ""
         for (i = 0; i <= results.length - 1; i++)
             message = message + results[i][1] + "\n"
@@ -69,9 +56,6 @@ btnLogin.onclick=function(){
         NSB.MsgBox("Error code: " + req1.status)
 }
 
-
-
-
-Button1.onclick=function(){
-  ChangeForm(createNewAccount)
+btnCreateNewAccount.onclick=function(){
+   ChangeForm(createNewAccount)
 }

@@ -1,3 +1,4 @@
+/*
 btnSubmitCreateInfo.onclick=function(){
     let createFirstName = inptCreateFirstName.value
     let createLastName = inptCreateLastName.value
@@ -46,3 +47,4 @@ btnSubmitCreateInfo.onclick=function(){
 Button1.onclick=function(){
   ChangeForm(___)
 }
+*/

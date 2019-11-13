@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4", 
-  "appearance": "secondary", 
+  "appearance": "primary", 
   "backgroundColor": "", 
   "borderRadius": "0", 
   "bottom": "auto", 
@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 64, 
-  "hidden": "display:none; ", 
-  "id": "lblWelcome", 
+  "height": 80, 
+  "hidden": "", 
+  "id": "lblNoAccount", 
   "labelStyle": "text", 
-  "left": 16, 
+  "left": 32, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 200, 
-  "value": "Welcome to our App!", 
-  "width": 136
+  "top": 296, 
+  "value": "", 
+  "width": 256
 }

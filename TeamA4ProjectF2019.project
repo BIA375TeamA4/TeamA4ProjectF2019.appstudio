@@ -85,6 +85,14 @@
             "testDB", 
             "testDB.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "profilePage", 
+            "profilePage.json"
+          ]
         }
       ], 
       "configxml": null, 
