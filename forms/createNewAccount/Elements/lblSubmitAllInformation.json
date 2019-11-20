@@ -15,11 +15,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": 88, 
+  "height": 48, 
   "hidden": "", 
   "id": "lblSubmitAllInformation", 
   "labelStyle": "text", 
-  "left": 16, 
+  "left": 24, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 352, 
+  "top": 400, 
   "value": "", 
   "width": 224
 }

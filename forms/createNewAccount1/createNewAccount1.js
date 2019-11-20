@@ -5,13 +5,13 @@ btnSubmitInformation.onclick=function(){
     let blankValue = ""
   
   if (createUsername != blankValue && createPassword != blankValue && verifyPassword != blankValue) {
-    ChangeForm(accountCreated)
+    let query = "INSERT into user (first_name, last_name, email, city, state, username, password) values ("createFirstName + "'" + createLastName + "'" + createEmail + "'" + createCity + "'" + createState + "'" + createUserName + "'" + createPassword + "'" ")
+    
   } else
     lblSubmitAllInformation1.value = "Please submit all information"
 
 }
-    
-      
+ChangeForm(accountCreated)
       
       
       

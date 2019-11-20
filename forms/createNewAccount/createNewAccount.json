@@ -43,7 +43,16 @@
         "forms", 
         "createNewAccount", 
         "Elements", 
-        "inptCreateZipcode.json"
+        "inptCreateCity.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "inptCreateState.json"
       ]
     }, 
     {
@@ -71,6 +80,15 @@
         "createNewAccount", 
         "Elements", 
         "lblSubmitAllInformation.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "createNewAccount", 
+        "Elements", 
+        "Input7.json"
       ]
     }
   ], 
