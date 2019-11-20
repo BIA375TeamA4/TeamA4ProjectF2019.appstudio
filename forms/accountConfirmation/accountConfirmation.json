@@ -14,54 +14,9 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "loginForm", 
+        "accountConfirmation", 
         "Elements", 
-        "inptUsername.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "loginForm", 
-        "Elements", 
-        "inptPassword.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "loginForm", 
-        "Elements", 
-        "btnLogin.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "loginForm", 
-        "Elements", 
-        "txaWelcome.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "loginForm", 
-        "Elements", 
-        "btnCreateNewAccount.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "loginForm", 
-        "Elements", 
-        "lblNoAccount.json"
+        "Textarea1.json"
       ]
     }
   ], 
@@ -71,7 +26,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "loginForm", 
+  "id": "accountConfirmation", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
