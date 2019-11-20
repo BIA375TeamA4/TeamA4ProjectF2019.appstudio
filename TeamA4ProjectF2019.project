@@ -42,6 +42,14 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "accountConfirmation", 
+            "accountConfirmation.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "homePage", 
             "homePage.json"
           ]
@@ -76,14 +84,6 @@
             "forms", 
             "profilePage", 
             "profilePage.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "accountConfirmation", 
-            "accountConfirmation.json"
           ]
         }, 
         {
