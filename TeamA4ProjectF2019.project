@@ -74,6 +74,14 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "profilePage", 
+            "profilePage.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "accountConfirmation", 
             "accountConfirmation.json"
           ]
@@ -92,14 +100,6 @@
             "forms", 
             "testDB", 
             "testDB.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "profilePage", 
-            "profilePage.json"
           ]
         }
       ], 

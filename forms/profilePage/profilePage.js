@@ -1,11 +1,11 @@
 
-homePage.onshow=function(){
-  medProfilePicture.value = 
+
+
+
+
+btnHome.onclick=function(){
+  ChangeForm(homePage)
 }
-
-
-
-
 
 btnMap.onclick=function(){
   ChangeForm(map)
