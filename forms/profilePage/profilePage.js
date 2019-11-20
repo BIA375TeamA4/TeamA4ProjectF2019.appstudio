@@ -3,22 +3,18 @@
 
 
 
-btnHome.onclick=function(){
+btnHome4.onclick=function(){
   ChangeForm(homePage)
 }
 
-btnMap.onclick=function(){
+btnMap4.onclick=function(){
   ChangeForm(map)
 }
 
-btnNewItem.onclick=function(){
+btnNewItem4.onclick=function(){
   ChangeForm(newItem)
 }
 
-btnEntry.onclick=function(){
+btnEntry4.onclick=function(){
   ChangeForm(entries)
-}
-
-btnProfile.onclick=function(){
-  ChangeForm(profilePage)
 }
