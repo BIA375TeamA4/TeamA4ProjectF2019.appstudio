@@ -66,6 +66,14 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "myList", 
+            "myList.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "newItem", 
             "newItem.json"
           ]

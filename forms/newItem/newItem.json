@@ -81,51 +81,6 @@
         "Elements", 
         "lblSubmitAllItemInfo.json"
       ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "newItem", 
-        "Elements", 
-        "btnHome2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "newItem", 
-        "Elements", 
-        "btnMap2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "newItem", 
-        "Elements", 
-        "btnNewItem2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "newItem", 
-        "Elements", 
-        "btnEntry2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "newItem", 
-        "Elements", 
-        "btnProfile2.json"
-      ]
     }
   ], 
   "class": "", 

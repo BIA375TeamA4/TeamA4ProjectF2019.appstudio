@@ -11,8 +11,8 @@ btnMap.onclick=function(){
   ChangeForm(map)
 }
 
-btnNewItem.onclick=function(){
-  ChangeForm(newItem)
+btnMyList.onclick=function(){
+  ChangeForm(myList)
 }
 
 btnEntry.onclick=function(){

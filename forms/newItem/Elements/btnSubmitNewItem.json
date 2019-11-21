@@ -24,12 +24,12 @@
   "fontWeight": "", 
   "groupStyle": "", 
   "grouping": "", 
-  "height": 32, 
+  "height": 40, 
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
   "id": "btnSubmitNewItem", 
-  "left": 176, 
+  "left": 192, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -57,10 +57,10 @@
   "popTitle": "Title", 
   "right": "auto", 
   "script": "", 
-  "size": " btn-sm", 
+  "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 360, 
+  "top": 384, 
   "value": "Submit", 
-  "width": 64
+  "width": 80
 }

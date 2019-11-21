@@ -1,7 +1,7 @@
 {
   "!type": "Button_bs4", 
   "ChangeForm": "", 
-  "appearance": " btn-success", 
+  "appearance": " btn-danger", 
   "backgroundColor": "", 
   "badge": "", 
   "badgeAppearance": " badge-info", 
@@ -24,12 +24,12 @@
   "fontWeight": "", 
   "groupStyle": "", 
   "grouping": "", 
-  "height": 32, 
+  "height": 40, 
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
   "id": "btnCancelNewItem", 
-  "left": 88, 
+  "left": 64, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -57,10 +57,10 @@
   "popTitle": "Title", 
   "right": "auto", 
   "script": "", 
-  "size": " btn-sm", 
+  "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 360, 
+  "top": 384, 
   "value": "Cancel", 
-  "width": 64
+  "width": 80
 }

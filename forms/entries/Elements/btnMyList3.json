@@ -1,7 +1,7 @@
 {
   "!type": "Button_bs4", 
   "ChangeForm": "", 
-  "appearance": " btn-light", 
+  "appearance": " btn-danger", 
   "backgroundColor": "", 
   "badge": "", 
   "badgeAppearance": " badge-info", 
@@ -28,7 +28,7 @@
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
-  "id": "btnNewItem2", 
+  "id": "btnMyList3", 
   "left": 136, 
   "mAll": "", 
   "mBottom": "", 
@@ -61,6 +61,6 @@
   "style": "", 
   "toggleControl": "", 
   "top": 408, 
-  "value": "New Item", 
+  "value": "My List", 
   "width": 56
 }

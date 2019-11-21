@@ -7,8 +7,8 @@ btnHome1.onclick=function(){
   ChangeForm(homePage)
 }
 
-btnNewItem1.onclick=function(){
-  ChangeForm(newItem)
+btnMyList1.onclick=function(){
+  ChangeForm(myList)
 }
 
 btnEntry1.onclick=function(){
