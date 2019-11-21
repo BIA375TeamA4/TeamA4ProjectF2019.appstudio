@@ -16,6 +16,15 @@
         "forms", 
         "homePage", 
         "Elements", 
+        "lgpBucketList.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "homePage", 
+        "Elements", 
         "medProfilePicture.json"
       ]
     }, 
@@ -62,15 +71,6 @@
         "homePage", 
         "Elements", 
         "btnProfile.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "homePage", 
-        "Elements", 
-        "Listgroup1.json"
       ]
     }
   ], 

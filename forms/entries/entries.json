@@ -16,6 +16,33 @@
         "forms", 
         "entries", 
         "Elements", 
+        "dpdnSelectItem.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "entries", 
+        "Elements", 
+        "lgpExistingEntries.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "entries", 
+        "Elements", 
+        "lblHeader3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "entries", 
+        "Elements", 
         "btnHome3.json"
       ]
     }, 

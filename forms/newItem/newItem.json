@@ -16,6 +16,69 @@
         "forms", 
         "newItem", 
         "Elements", 
+        "lblHeader2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newItem", 
+        "Elements", 
+        "inptNewItemName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newItem", 
+        "Elements", 
+        "inptNewItemLocation.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newItem", 
+        "Elements", 
+        "inptNewItemDescription.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newItem", 
+        "Elements", 
+        "inptNewItemDate.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newItem", 
+        "Elements", 
+        "btnClearNewItem.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newItem", 
+        "Elements", 
+        "btnSubmitNewItem.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newItem", 
+        "Elements", 
         "btnHome2.json"
       ]
     }, 
