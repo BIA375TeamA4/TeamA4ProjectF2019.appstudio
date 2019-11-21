@@ -16,6 +16,61 @@
         "forms", 
         "profilePage", 
         "Elements", 
+
+        "lblProfileHeader.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
+        "lblProfileName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
+        "lblProfileUsername.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
+        "lblProfileCity.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
+        "lblProfileState.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
+        "btnSignOut.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
         "btnHome4.json"
       ]
     }, 
@@ -54,6 +109,17 @@
         "Elements", 
         "btnProfile4.json"
       ]
+
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
+        "imgProfileImage.json"
+      ]
+
     }
   ], 
   "class": "", 
