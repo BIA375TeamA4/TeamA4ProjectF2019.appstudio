@@ -58,6 +58,14 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "myList", 
+            "myList.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "newItem", 
             "newItem.json"
           ]
@@ -74,8 +82,16 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "accountConfirmation", 
-            "accountConfirmation.json"
+            "newEntry", 
+            "newEntry.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "profilePage", 
+            "profilePage.json"
           ]
         }, 
         {
@@ -92,14 +108,6 @@
             "forms", 
             "testDB", 
             "testDB.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "profilePage", 
-            "profilePage.json"
           ]
         }
       ], 

@@ -14,54 +14,63 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "myList", 
         "Elements", 
-        "medProfilePicture.json"
+        "lblHeaderMyList.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "myList", 
         "Elements", 
-        "btnHome.json"
+        "btnHome2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "myList", 
         "Elements", 
-        "btnMap.json"
+        "btnMap2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "myList", 
         "Elements", 
-        "btnMyList.json"
+        "btnMyList2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "myList", 
         "Elements", 
-        "btnEntry.json"
+        "btnEntry2.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "homePage", 
+        "myList", 
         "Elements", 
-        "btnProfile.json"
+        "btnProfile2.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myList", 
+        "Elements", 
+        "btnCreateNewItem.json"
       ]
     }
   ], 
@@ -71,7 +80,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "homePage", 
+  "id": "myList", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -79,7 +88,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "homePage.onshow()", 
+  "onshow": "", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

@@ -28,8 +28,8 @@
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
-  "id": "btnNewItem2", 
-  "left": 136, 
+  "id": "btnEntry4", 
+  "left": 200, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-sm", 
   "style": "", 
   "toggleControl": "", 
-  "top": 408, 
-  "value": "New Item", 
+  "top": 424, 
+  "value": "Entry", 
   "width": 56
 }

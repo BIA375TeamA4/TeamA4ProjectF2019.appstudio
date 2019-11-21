@@ -16,7 +16,7 @@
         "forms", 
         "newItem", 
         "Elements", 
-        "btnHome2.json"
+        "lblHeader2.json"
       ]
     }, 
     {
@@ -25,7 +25,7 @@
         "forms", 
         "newItem", 
         "Elements", 
-        "btnMap2.json"
+        "inptNewItemName.json"
       ]
     }, 
     {
@@ -34,7 +34,7 @@
         "forms", 
         "newItem", 
         "Elements", 
-        "btnNewItem2.json"
+        "inptNewItemLocation.json"
       ]
     }, 
     {
@@ -43,7 +43,7 @@
         "forms", 
         "newItem", 
         "Elements", 
-        "btnEntry2.json"
+        "inptNewItemDescription.json"
       ]
     }, 
     {
@@ -52,7 +52,34 @@
         "forms", 
         "newItem", 
         "Elements", 
-        "btnProfile2.json"
+        "inptNewItemDate.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newItem", 
+        "Elements", 
+        "btnSubmitNewItem.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newItem", 
+        "Elements", 
+        "btnCancelNewItem.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newItem", 
+        "Elements", 
+        "lblSubmitAllItemInfo.json"
       ]
     }
   ], 

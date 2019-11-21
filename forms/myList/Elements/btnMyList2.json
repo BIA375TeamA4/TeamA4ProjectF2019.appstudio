@@ -28,8 +28,8 @@
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
-  "id": "btnEntry3", 
-  "left": 200, 
+  "id": "btnMyList2", 
+  "left": 136, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-sm", 
   "style": "", 
   "toggleControl": "", 
-  "top": 424, 
-  "value": "Entry", 
+  "top": 408, 
+  "value": "My List", 
   "width": 56
 }

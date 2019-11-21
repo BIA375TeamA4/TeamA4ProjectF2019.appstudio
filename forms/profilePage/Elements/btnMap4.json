@@ -28,8 +28,8 @@
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
-  "id": "btnNewItem3", 
-  "left": 136, 
+  "id": "btnMap4", 
+  "left": 72, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-sm", 
   "style": "", 
   "toggleControl": "", 
-  "top": 408, 
-  "value": "New Item", 
+  "top": 424, 
+  "value": "Map", 
   "width": 56
 }

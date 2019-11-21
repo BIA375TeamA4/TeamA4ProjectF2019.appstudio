@@ -14,18 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "accountConfirmation", 
+        "newEntry", 
         "Elements", 
-        "Textarea1.json"
+        "lblNewEntryHeader.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "accountConfirmation", 
+        "newEntry", 
         "Elements", 
-        "Button3.json"
+        "dpdnSelectItem1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newEntry", 
+        "Elements", 
+        "inptNewEntryDescription.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newEntry", 
+        "Elements", 
+        "btnSubmitNewEntry.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newEntry", 
+        "Elements", 
+        "btnCancelNewEntry.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newEntry", 
+        "Elements", 
+        "lblSubmitAllEntryInfo.json"
       ]
     }
   ], 
@@ -35,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "accountConfirmation", 
+  "id": "newEntry", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

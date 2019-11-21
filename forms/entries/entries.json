@@ -16,6 +16,42 @@
         "forms", 
         "entries", 
         "Elements", 
+        "dpdnSelectItem.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "entries", 
+        "Elements", 
+        "lgpExistingEntries.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "entries", 
+        "Elements", 
+        "lblHeader3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "entries", 
+        "Elements", 
+        "btnCreateNewEntry.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "entries", 
+        "Elements", 
         "btnHome3.json"
       ]
     }, 
@@ -34,7 +70,7 @@
         "forms", 
         "entries", 
         "Elements", 
-        "btnNewItem3.json"
+        "btnMyList3.json"
       ]
     }, 
     {

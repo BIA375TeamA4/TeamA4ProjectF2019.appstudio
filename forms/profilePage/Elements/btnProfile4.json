@@ -28,8 +28,8 @@
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
-  "id": "btnEntry3", 
-  "left": 200, 
+  "id": "btnProfile4", 
+  "left": 264, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -61,6 +61,6 @@
   "style": "", 
   "toggleControl": "", 
   "top": 424, 
-  "value": "Entry", 
+  "value": "Profile", 
   "width": 56
 }
