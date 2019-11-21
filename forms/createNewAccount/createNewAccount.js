@@ -1,5 +1,3 @@
-
-
 btnNext1.onclick=function(){
     let createFirstName = inptCreateFirstName.value
     let createLastName = inptCreateLastName.value

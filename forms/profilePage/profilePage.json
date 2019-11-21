@@ -16,7 +16,6 @@
         "forms", 
         "profilePage", 
         "Elements", 
-
         "lblProfileHeader.json"
       ]
     }, 
@@ -109,7 +108,6 @@
         "Elements", 
         "btnProfile4.json"
       ]
-
     }, 
     {
       "!type": "External", 
@@ -119,7 +117,6 @@
         "Elements", 
         "imgProfileImage.json"
       ]
-
     }
   ], 
   "class": "", 

@@ -1,7 +1,4 @@
-
-
-
-
+let currentUser = localStorage.getItem("username");
 
 
 
