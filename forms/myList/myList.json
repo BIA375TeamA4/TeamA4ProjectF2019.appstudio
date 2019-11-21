@@ -25,6 +25,24 @@
         "forms", 
         "myList", 
         "Elements", 
+        "Container1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myList", 
+        "Elements", 
+        "btnCreateNewItem.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myList", 
+        "Elements", 
         "btnHome2.json"
       ]
     }, 
@@ -62,15 +80,6 @@
         "myList", 
         "Elements", 
         "btnProfile2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "myList", 
-        "Elements", 
-        "btnCreateNewItem.json"
       ]
     }
   ], 
