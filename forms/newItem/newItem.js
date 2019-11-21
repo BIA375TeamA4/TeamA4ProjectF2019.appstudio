@@ -19,7 +19,6 @@ btnSubmitNewItem.onclick=function(){
 }
   
 
-  
 btnCancelNewItem.onclick=function(){
   ChangeForm(myList)
 }
