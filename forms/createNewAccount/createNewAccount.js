@@ -4,9 +4,9 @@ btnNext1.onclick=function(){
     let createFirstName = inptCreateFirstName.value
     let createLastName = inptCreateLastName.value
     let createEmail = inptCreateEmail.value
-    let createCity = inptCreateZipcode.value
+    let createCity = inptCreateCity.value
     let createState =  inptCreateState.value
-    let createZipcode = inptCreateState.value
+    let createZipcode = inptCreateZipcode.value
     let blankValue = ""
   
   if (createFirstName != blankValue && createLastName != blankValue && createEmail  != blankValue && createCity != blankValue && createState != blankValue && createZipcode != blankValue) {
