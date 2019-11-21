@@ -82,6 +82,14 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "newEntry", 
+            "newEntry.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "profilePage", 
             "profilePage.json"
           ]

@@ -19,7 +19,7 @@
   "hidden": "", 
   "id": "lblHeader3", 
   "labelStyle": "text", 
-  "left": 40, 
+  "left": 16, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 16, 
+  "top": 8, 
   "value": "Create/View Entries", 
   "width": 256
 }

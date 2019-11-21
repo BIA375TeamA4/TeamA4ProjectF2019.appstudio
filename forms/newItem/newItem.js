@@ -5,7 +5,7 @@ btnSubmitNewItem.onclick=function(){
     let createNewItemDate = inptNewItemDate.value
     let blankValueNewItem = ""
   
-  if (createNewItemName != blankValue && createNewItemLocation != blankValue) {
+  if (createNewItemName != blankValueNewItem && createNewItemLocation != blankValueNewItem) {
     ChangeForm(homePage)
   } else
     lblSubmitAllItemInfo.value = "Name and/or location fields empty"
@@ -34,3 +34,5 @@ btnEntry2.onclick=function(){
 btnProfile2.onclick=function(){
   ChangeForm(profilePage)
 }
+
+/* STILL MUST SUBMIT INPUTS TO DATABASE */

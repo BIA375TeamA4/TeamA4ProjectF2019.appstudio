@@ -14,81 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "newEntry", 
         "Elements", 
-        "dpdnSelectItem.json"
+        "lblNewEntryHeader.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "newEntry", 
         "Elements", 
-        "lgpExistingEntries.json"
+        "dpdnSelectItem1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "newEntry", 
         "Elements", 
-        "lblHeader3.json"
+        "inptNewEntryDescription.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "newEntry", 
         "Elements", 
-        "btnCreateNewEntry.json"
+        "btnSubmitNewEntry.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "newEntry", 
         "Elements", 
-        "btnHome3.json"
+        "btnCancelNewEntry.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "newEntry", 
         "Elements", 
-        "btnMap3.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "entries", 
-        "Elements", 
-        "btnNewItem3.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "entries", 
-        "Elements", 
-        "btnEntry3.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "entries", 
-        "Elements", 
-        "btnProfile3.json"
+        "lblSubmitAllEntryInfo.json"
       ]
     }
   ], 
@@ -98,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "entries", 
+  "id": "newEntry", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
