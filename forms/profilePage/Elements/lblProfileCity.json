@@ -17,7 +17,7 @@
   "fontWeight": "", 
   "height": 48, 
   "hidden": "", 
-  "id": "lblProfileNameCopyCopyCopy", 
+  "id": "lblProfileCity", 
   "labelStyle": "text", 
   "left": 16, 
   "mAll": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 248, 
-  "value": "State: ______", 
+  "top": 208, 
+  "value": "City: ______", 
   "width": 232
 }
