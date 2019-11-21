@@ -4,13 +4,12 @@ myList.onshow=function(){
     if (req1.status == 200) { 
        results = JSON.parse(req1.responseText)
        console.log(results)
+       localStorage.setItem("itemData", JSON.stringify(results))
     }     
 }
    
+var data1 = JSON.parse(localStorage.getItem("itemData"))
 
-/* ADD CONTAINER TO DISPLAY ALL EXISTING ITEMS ON LIST 
-
-var itemJson = JSON.stringify(data1)    // put data in another format - use later
 
 var listColumns = [  
             {title: "Name"},
@@ -19,7 +18,32 @@ var listColumns = [
             {title: "Date"}
             // {title: "Completed?"}
         ]
-*/
+
+function Main() { 
+  updateTable()
+}
+
+function updateTable() { 
+  dtblListItems.settings.columns = listColumns
+  dtblListItems.settings.data = data1
+  dtblListItems.build()
+}
+
+function loadTable() {  
+  var table = $("#dtblListItems").DataTable()
+  table.rows.add(dtblListItems.settings.data).draw()
+}
+
+dtblListItems.onclick = function(event) { 
+  if(typeof(event.target._DT_CellIndex) != "object" ) { 
+     return }
+  var row,col
+  row = event.target._DT_CellIndex.row
+  col = event.target._DT_CellIndex.column
+  NSB.MsgBox("Value is "  +  data1[row][col]  +  ".")
+}
+
+
 
 btnCreateNewItem.onclick=function(){
   ChangeForm(newItem)

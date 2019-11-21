@@ -25,6 +25,15 @@
         "forms", 
         "myList", 
         "Elements", 
+        "cntListItems.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myList", 
+        "Elements", 
         "btnCreateNewItem.json"
       ]
     }, 

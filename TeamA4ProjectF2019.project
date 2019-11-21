@@ -109,14 +109,6 @@
             "testDB", 
             "testDB.json"
           ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "dataTable", 
-            "dataTable.json"
-          ]
         }
       ], 
       "configxml": null, 
