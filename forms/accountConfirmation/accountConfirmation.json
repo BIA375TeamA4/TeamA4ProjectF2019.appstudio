@@ -18,6 +18,15 @@
         "Elements", 
         "Textarea1.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "accountConfirmation", 
+        "Elements", 
+        "Button3.json"
+      ]
     }
   ], 
   "class": "", 

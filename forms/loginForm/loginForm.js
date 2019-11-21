@@ -2,10 +2,10 @@ btnLogin.onclick=function(){
      // create a 'SELECT WHERE' query
     let username = inptUsername.value
     let password = inptPassword.value
-    let query = "SELECT * FROM user WHERE username = " + '"' + username + '"' + "AND password = " + '"' + password + '"'
+    let query1 = "SELECT * FROM user WHERE username = " + '"' + username + '"' + "AND password = " + '"' + password + '"'
     
     // run an AJAX call, which runs the query on the database server.
-    req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + query)
+    req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + query1)
     
     if (req1.status == 200) { //transit worked.
         /* req1.responseText is a JSON object with the results of the 

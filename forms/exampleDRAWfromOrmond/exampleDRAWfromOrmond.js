@@ -14,7 +14,7 @@ The algorithm:
       > if the results are not empty, show the results
     > or if the transit of the request didn't work, tell the user there
       was an error in transit
-*/
+
 
 btnSubmit2.onclick=function(){
      // 2. create a 'SELECT WHERE' query
@@ -33,14 +33,14 @@ btnSubmit2.onclick=function(){
            into one big array that holds many little arrays - 
            each little array holds one row of the data that was 
            returned from the database table. 
-        */
+    
         results = JSON.parse(req1.responseText)
         console.log(results)   // this shows the array of arrays
         
     if (results.length == 0)   // the array is empty so no results returned             
         NSB.MsgBox("There are no pets of that type.")
     else {        
-        /* This is what results look like: one big array with 3
+       This is what results look like: one big array with 3
          little arrays: 
          [[47,"Paul","dog"],[23,"Marty","dog"],[34,"Jack","horse"]]  
          array 0             array 1            array 2
@@ -51,7 +51,7 @@ btnSubmit2.onclick=function(){
          So to get the name 'Paul':
             results[0][1]   (array 0, within that array, item 1)
          Let's take a look:
-        */
+ 
         console.log("the parsed JSON is " + results)
         console.log("eg. temp[0] or first row in big array is " + results[0])
         console.log("to get to Paul, need results[0][1]: " + results[0][1])
@@ -67,3 +67,4 @@ btnSubmit2.onclick=function(){
         //transit error - Handle that with an error message.
         NSB.MsgBox("Error code: " + req1.status)
 }
+*/
