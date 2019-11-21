@@ -1,9 +1,11 @@
 
 
 
+
 btnSignOut.onclick=function(){
   ChangeForm(loginForm)
 }
+
 
 
 btnHome4.onclick=function(){
