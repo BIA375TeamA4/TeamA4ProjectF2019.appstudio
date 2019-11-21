@@ -16,6 +16,15 @@
         "forms", 
         "profilePage", 
         "Elements", 
+        "lblProfileHeader.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
         "btnHome4.json"
       ]
     }, 
@@ -53,6 +62,24 @@
         "profilePage", 
         "Elements", 
         "btnProfile4.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
+        "Image1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
+        "Label1.json"
       ]
     }
   ], 
