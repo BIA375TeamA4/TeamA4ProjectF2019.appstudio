@@ -24,11 +24,12 @@ btnSubmitInformation.onclick=function(){
                            if (req1.status == 200) { 
                                   results2 = JSON.parse(req3.responseText)
                                   console.log(results2)
-                           }
+                           } else 
                      }
-               }      
+                }   else 
+                    lblSubmitAllInformation1.value = "This username or password "
         } else
-    lblSubmitAllInformation1.value = "Please submit all information and ensure proper verification of password."
+          lblSubmitAllInformation1.value = "Please submit all information and ensure proper verification of password."
 }
   
 }
