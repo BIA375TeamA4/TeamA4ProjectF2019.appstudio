@@ -9,80 +9,99 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
+  "centerScreen": "false", 
   "children": [
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "myList", 
+        "dataTable", 
         "Elements", 
-        "lblHeaderMyList.json"
+        "Header1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "myList", 
+        "dataTable", 
         "Elements", 
-        "btnCreateNewItem.json"
+        "Container1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "myList", 
+        "dataTable", 
         "Elements", 
-        "btnHome2.json"
+        "Button11.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "myList", 
+        "dataTable", 
         "Elements", 
-        "btnMap2.json"
+        "Button21.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "myList", 
+        "dataTable", 
         "Elements", 
-        "btnMyList2.json"
+        "Button3.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "myList", 
+        "dataTable", 
         "Elements", 
-        "btnEntry2.json"
+        "Button4.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "myList", 
+        "dataTable", 
         "Elements", 
-        "btnProfile2.json"
+        "Fliptoggle1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "dataTable", 
+        "Elements", 
+        "Fliptoggle4.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "dataTable", 
+        "Elements", 
+        "Fliptoggle5.json"
       ]
     }
   ], 
   "class": "", 
-  "designHeight": 0, 
-  "designWidth": 0, 
+  "designHeight": 460, 
+  "designWidth": 800, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "myList", 
+  "id": "dataTable", 
   "language": "JavaScript", 
-  "left": "0", 
+  "left": 0, 
   "locked": false, 
   "modal": "false", 
   "onhide": "", 
@@ -91,13 +110,13 @@
   "onshow": "", 
   "openMode": "none", 
   "parentForm": "", 
-  "position": "absolute", 
+  "position": "relative", 
   "script": null, 
-  "scroll_options": "mouseWheel:true, bounce:true, zoom:false", 
+  "scroll_options": "mouseWheel:true,  bounce:true, zoom:false", 
   "scrolling": "false", 
   "setFocusID": "", 
   "style": "", 
   "theme": "", 
-  "top": "0", 
-  "width": 320
+  "top": 0, 
+  "width": "800"
 }
