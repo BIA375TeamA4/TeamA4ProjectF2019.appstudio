@@ -61,7 +61,7 @@
         "forms", 
         "newItem", 
         "Elements", 
-        "btnClearNewItem.json"
+        "btnSubmitNewItem.json"
       ]
     }, 
     {
@@ -70,7 +70,16 @@
         "forms", 
         "newItem", 
         "Elements", 
-        "btnSubmitNewItem.json"
+        "btnCancelNewItem.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "newItem", 
+        "Elements", 
+        "lblSubmitAllItemInfo.json"
       ]
     }, 
     {

@@ -1,4 +1,20 @@
+btnSubmitNewItem.onclick=function(){
+    let createNewItemName = inptNewItemName.value
+    let createNewItemLocation = inptNewItemLocation.value
+    let createNewItemDescription = inptNewItemDescription.value
+    let createNewItemDate = inptNewItemDate.value
+    let blankValueNewItem = ""
+  
+  if (createNewItemName != blankValue && createNewItemLocation != blankValue) {
+    ChangeForm(homePage)
+  } else
+    lblSubmitAllItemInfo.value = "Name and/or location fields empty"
 
+}
+
+btnCancelNewItem.onclick=function(){
+  ChangeForm(homePage)
+}
 
 
 
