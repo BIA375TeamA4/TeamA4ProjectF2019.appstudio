@@ -25,6 +25,15 @@
         "forms", 
         "profilePage", 
         "Elements", 
+        "lblProfileName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
         "btnHome4.json"
       ]
     }, 
@@ -79,7 +88,34 @@
         "forms", 
         "profilePage", 
         "Elements", 
-        "Label1.json"
+        "Button3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
+        "lblProfileNameCopy.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
+        "lblProfileNameCopyCopy.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "profilePage", 
+        "Elements", 
+        "lblProfileNameCopyCopyCopy.json"
       ]
     }
   ], 

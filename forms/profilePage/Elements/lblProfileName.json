@@ -17,7 +17,7 @@
   "fontWeight": "", 
   "height": 48, 
   "hidden": "", 
-  "id": "Label1", 
+  "id": "lblProfileName", 
   "labelStyle": "text", 
   "left": 120, 
   "mAll": "", 
@@ -43,6 +43,6 @@
   "script": "", 
   "style": "", 
   "top": 72, 
-  "value": "Label", 
+  "value": "Full name from database", 
   "width": 120
 }
