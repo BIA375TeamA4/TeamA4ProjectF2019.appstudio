@@ -24,8 +24,6 @@ btnSubmitInformation.onclick=function(){
                         if (req1.status == 200) { 
                               results2 = JSON.parse(req3.responseText)
                               console.log(results2)
-                              localStorage.setItem("first_name",  createFirstName)
-                              localStorage.setItem("last_name",  createLastName)
                               ChangeForm(accountCreationConfirm)
                         }
                   } else
