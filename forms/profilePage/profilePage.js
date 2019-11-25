@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 profilePage.onshow=function(){
     let queryItem5 = "SELECT first_name, last_name, username, city, state FROM user WHERE user_id = " + '"' + currentUserID + '"'
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + queryItem5)
@@ -11,7 +10,7 @@ profilePage.onshow=function(){
 }
 
 var userInfo = localStorage.getItem("userInfo")
->>>>>>> Stashed changes
+
 
 
 
