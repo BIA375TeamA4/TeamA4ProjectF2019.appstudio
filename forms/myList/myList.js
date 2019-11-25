@@ -6,6 +6,7 @@ myList.onshow=function(){
     localStorage.setItem("userID", userID)
 }
 
+let currentUserID = localStorage.getItem("userID")
 
 
 btnCreateNewItem.onclick=function(){

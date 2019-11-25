@@ -16,6 +16,7 @@ let currentUserID = localStorage.getItem("userID")
 /* STILL NEED MORE CONTENT */
 
 
+
 btnMap.onclick=function(){
   ChangeForm(map)
 }
