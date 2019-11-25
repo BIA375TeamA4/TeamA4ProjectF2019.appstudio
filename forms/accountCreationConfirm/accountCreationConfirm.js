@@ -1,6 +1,6 @@
 
 accountCreationConfirm.onshow=function(){
-    let username = inptCreateUsername.value
+    let username = inptUsername.value
     lblConfirmation.value = "Your account has been created, " + username + ". Please press continue."
 }
 

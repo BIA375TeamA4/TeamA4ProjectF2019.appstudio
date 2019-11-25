@@ -25,7 +25,7 @@
         "forms", 
         "myList", 
         "Elements", 
-        "Container1.json"
+        "cntListItems.json"
       ]
     }, 
     {
@@ -84,11 +84,11 @@
     }
   ], 
   "class": "", 
-  "designHeight": 600, 
-  "designWidth": 800, 
+  "designHeight": 0, 
+  "designWidth": 0, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
-  "height": "660", 
+  "height": 460, 
   "id": "myList", 
   "language": "JavaScript", 
   "left": "0", 
@@ -108,5 +108,5 @@
   "style": "", 
   "theme": "", 
   "top": "0", 
-  "width": "520"
+  "width": 320
 }
