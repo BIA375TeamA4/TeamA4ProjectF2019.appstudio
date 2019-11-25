@@ -35,7 +35,7 @@
   "mLeft": "", 
   "mRight": "", 
   "mTop": "", 
-  "onclick": "", 
+  "onclick": "btnEntry2.onclick()", 
   "onmousedown": "", 
   "onmousemove": "", 
   "onmouseout": "", 

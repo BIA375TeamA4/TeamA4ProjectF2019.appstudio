@@ -84,8 +84,8 @@
     }
   ], 
   "class": "", 
-  "designHeight": 0, 
-  "designWidth": 0, 
+  "designHeight": 600, 
+  "designWidth": 800, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": "660", 

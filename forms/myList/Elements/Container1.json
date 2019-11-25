@@ -12,10 +12,20 @@
   "cached_js": "", 
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e", 
   "center": "", 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myList", 
+        "Elements", 
+        "dtblListItems.json"
+      ]
+    }
+  ], 
   "class": "", 
   "color": "", 
-  "content": "Content", 
+  "content": "", 
   "display": "", 
   "expanded_pmp": null, 
   "flexDirection": "", 
@@ -24,7 +34,7 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": "auto", 
+  "height": 232, 
   "hidden": "", 
   "id": "Container1", 
   "justifyContent": "", 
@@ -52,6 +62,6 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 144, 
-  "width": "300"
+  "top": 88, 
+  "width": 584
 }
