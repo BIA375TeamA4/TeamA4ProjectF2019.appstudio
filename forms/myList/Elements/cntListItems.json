@@ -11,11 +11,21 @@
   "bottom": "auto", 
   "cached_js": "", 
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e", 
-  "center": "", 
-  "children": [], 
+  "center": "container-center ", 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myList", 
+        "Elements", 
+        "dtblListItems.json"
+      ]
+    }
+  ], 
   "class": "", 
   "color": "", 
-  "content": "Content", 
+  "content": "", 
   "display": "", 
   "expanded_pmp": null, 
   "flexDirection": "", 
@@ -26,9 +36,9 @@
   "fontWeight": "", 
   "height": "auto", 
   "hidden": "", 
-  "id": "Container1", 
+  "id": "cntListItems", 
   "justifyContent": "", 
-  "left": 16, 
+  "left": "auto", 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -52,6 +62,6 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 144, 
+  "top": 80, 
   "width": "300"
 }
