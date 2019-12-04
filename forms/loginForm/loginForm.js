@@ -19,6 +19,7 @@ btnLogin.onclick=function(){
    } 
 }
 
+
 btnCreateNewAccount.onclick=function(){
   ChangeForm(createNewAccount)
 }

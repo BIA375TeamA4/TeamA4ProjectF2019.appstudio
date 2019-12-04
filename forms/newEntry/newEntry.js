@@ -16,7 +16,7 @@ if (req1.status == 200) {
         dpdnSelectItem1.addItem(results[i])
 }
 }
-
+/*
 dpdnSelectItem1.onclick=function(s){
   if (typeof(s) == "object"){  // means control clicked but no selection made yet
     return                     // do nothing
@@ -26,7 +26,7 @@ dpdnSelectItem1.onclick=function(s){
   }
 }
 
-
+*/
 
 /*
 btnSubmitNewEntry.onclick=function(){
@@ -40,10 +40,11 @@ btnSubmitNewEntry.onclick=function(){
     lblSubmitAllEntryInfo.value = "New entries must have content"
 
 }
+*/
 
 btnCancelNewEntry.onclick=function(){
   ChangeForm(entries)
 }
 
 
-/* STILL MUST SUBMIT INPUTS TO DATABASE */
+
