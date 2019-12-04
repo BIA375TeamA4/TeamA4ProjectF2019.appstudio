@@ -27,7 +27,7 @@
   "initComplete": "", 
   "left": "auto", 
   "lengthChange": "true", 
-  "lengthMenu": "[2, 4, 6]", 
+  "lengthMenu": "[5, 20]", 
   "onclick": "", 
   "onmousedown": "", 
   "onmousemove": "", 

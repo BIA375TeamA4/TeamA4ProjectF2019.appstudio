@@ -1,4 +1,4 @@
-/*
+
 let flavors = ["Acai Berry","Almond","Amaretto","Anise","Apple","Apricot","Banana",
 "Bacon","Bavarian Cream","Berry Cola","Birch Beer","Black Licorice","Black Cherry",
 "Black Currant","Black Walnut","Blackberry","Blue Raspberry",
@@ -29,5 +29,5 @@ btnClearDropdown.onclick=function(){
     drpBestMajor.clear()
     drpBestMajor.value = "Worst Major"
 }
-*/
+
 

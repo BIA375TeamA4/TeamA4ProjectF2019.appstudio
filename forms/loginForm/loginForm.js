@@ -22,3 +22,8 @@ btnLogin.onclick=function(){
 btnCreateNewAccount.onclick=function(){
   ChangeForm(createNewAccount)
 }
+
+loginForm.onshow=function(){
+  inptUsername.value = ""
+  inptPassword.value = ""
+}
