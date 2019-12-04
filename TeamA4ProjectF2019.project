@@ -117,6 +117,14 @@
             "testDB", 
             "testDB.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "dropdownDemo", 
+            "dropdownDemo.json"
+          ]
         }
       ], 
       "configxml": null, 

@@ -16,7 +16,6 @@ var listColumns = [
             {title: "Location"},
             {title: "Description"},
             {title: "Date"}
-            // {title: "Completed?"}
         ]
 
 function Main() { 

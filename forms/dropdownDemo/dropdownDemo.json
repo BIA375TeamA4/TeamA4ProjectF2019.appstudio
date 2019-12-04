@@ -14,72 +14,27 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "myList", 
+        "dropdownDemo", 
         "Elements", 
-        "lblHeaderMyList.json"
+        "drpBestMajor.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "myList", 
+        "dropdownDemo", 
         "Elements", 
-        "cntListItems.json"
+        "btnClearDropdown.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "myList", 
+        "dropdownDemo", 
         "Elements", 
-        "btnCreateNewItem.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "myList", 
-        "Elements", 
-        "btnHome2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "myList", 
-        "Elements", 
-        "btnMap2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "myList", 
-        "Elements", 
-        "btnMyList2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "myList", 
-        "Elements", 
-        "btnEntry2.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "myList", 
-        "Elements", 
-        "btnProfile2.json"
+        "drpBestFlavor.json"
       ]
     }
   ], 
@@ -89,7 +44,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "myList", 
+  "id": "dropdownDemo", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -97,7 +52,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "dropdownDemo.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
@@ -108,5 +63,5 @@
   "style": "", 
   "theme": "", 
   "top": "0", 
-  "width": "320"
+  "width": 320
 }
