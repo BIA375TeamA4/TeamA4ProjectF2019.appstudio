@@ -14,54 +14,27 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "loginForm", 
+        "dropdownDemo", 
         "Elements", 
-        "inptUsername.json"
+        "drpBestMajor.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginForm", 
+        "dropdownDemo", 
         "Elements", 
-        "inptPassword.json"
+        "btnClearDropdown.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginForm", 
+        "dropdownDemo", 
         "Elements", 
-        "btnLogin.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "loginForm", 
-        "Elements", 
-        "txaWelcome.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "loginForm", 
-        "Elements", 
-        "btnCreateNewAccount.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "loginForm", 
-        "Elements", 
-        "lblNoAccount.json"
+        "drpBestFlavor.json"
       ]
     }
   ], 
@@ -71,7 +44,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "loginForm", 
+  "id": "dropdownDemo", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -79,7 +52,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "loginForm.onshow()", 
+  "onshow": "dropdownDemo.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

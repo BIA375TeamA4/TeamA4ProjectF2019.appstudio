@@ -38,7 +38,7 @@
   "mLeft": "", 
   "mRight": "", 
   "mTop": "", 
-  "onclick": "", 
+  "onclick": "dpdnSelectItem1.onclick()", 
   "onmousedown": "", 
   "onmousemove": "", 
   "onmouseout": "", 
