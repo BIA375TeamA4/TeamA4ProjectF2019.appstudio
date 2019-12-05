@@ -41,7 +41,8 @@ dtblListItems.onclick = function(event) {
   var row,col
   row = event.target._DT_CellIndex.row
   col = event.target._DT_CellIndex.column
-  NSB.MsgBox("Value is "  +  data1[row][col]  +  ".")
+  ChangeForm(entries)
+  dpdn
 }
 
 

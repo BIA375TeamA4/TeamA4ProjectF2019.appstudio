@@ -34,11 +34,11 @@
   "fontSize": "", 
   "fontStyle": "", 
   "fontWeight": "", 
-  "height": "auto", 
+  "height": 16, 
   "hidden": "", 
   "id": "cntListItems", 
   "justifyContent": "", 
-  "left": "auto", 
+  "left": 24, 
   "mAll": "20", 
   "mBottom": "", 
   "mLeft": "", 
@@ -62,6 +62,6 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": "100", 
+  "top": 280, 
   "width": 256
 }
