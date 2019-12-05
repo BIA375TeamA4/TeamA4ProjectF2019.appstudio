@@ -1,11 +1,12 @@
 {
   "!type": "Form", 
   "HTML": null, 
+  "action": "", 
   "attributes": "", 
   "background": "", 
   "backgroundimage": "", 
-  "borderColor": "", 
-  "borderStyle": "", 
+  "borderColor": "gray", 
+  "borderStyle": "solid", 
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
@@ -16,7 +17,7 @@
         "forms", 
         "map", 
         "Elements", 
-        "btnHome1.json"
+        "GoogleMap1.json"
       ]
     }, 
     {
@@ -25,7 +26,7 @@
         "forms", 
         "map", 
         "Elements", 
-        "btnMap1.json"
+        "btnLocation.json"
       ]
     }, 
     {
@@ -34,7 +35,7 @@
         "forms", 
         "map", 
         "Elements", 
-        "btnMyList1.json"
+        "btnHomeCopy.json"
       ]
     }, 
     {
@@ -43,7 +44,7 @@
         "forms", 
         "map", 
         "Elements", 
-        "btnEntry1.json"
+        "btnMapCopy.json"
       ]
     }, 
     {
@@ -52,7 +53,7 @@
         "forms", 
         "map", 
         "Elements", 
-        "btnProfile1.json"
+        "btnMyListCopy.json"
       ]
     }, 
     {
@@ -61,34 +62,36 @@
         "forms", 
         "map", 
         "Elements", 
-        "GoogleMap.json"
+        "btnEntryCopy.json"
       ]
     }
   ], 
   "class": "", 
-  "designHeight": 0, 
-  "designWidth": 0, 
+  "designHeight": 460, 
+  "designWidth": 320, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
   "id": "map", 
   "language": "JavaScript", 
-  "left": "0", 
+  "left": 0, 
   "locked": false, 
+  "method": "", 
   "modal": "false", 
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
   "onshow": "", 
+  "onsubmit": "", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
   "script": null, 
-  "scroll_options": "mouseWheel:true, bounce:true, zoom:false", 
+  "scroll_options": "mouseWheel:true, scrollbars:true, bounce:true, zoom:false", 
   "scrolling": "false", 
   "setFocusID": "", 
   "style": "", 
   "theme": "", 
-  "top": "0", 
+  "top": 0, 
   "width": 320
 }

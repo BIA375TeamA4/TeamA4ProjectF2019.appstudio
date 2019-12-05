@@ -58,14 +58,6 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "map", 
-            "map.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
             "myList", 
             "myList.json"
           ]
@@ -124,6 +116,14 @@
             "forms", 
             "dropdownDemo", 
             "dropdownDemo.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "map", 
+            "map.json"
           ]
         }
       ], 
