@@ -5,5 +5,5 @@ accountCreationConfirm.onshow=function(){
 }
 
 Button3.onclick=function(){
-  ChangeForm(loginPage)
+  ChangeForm(loginForm)
 }

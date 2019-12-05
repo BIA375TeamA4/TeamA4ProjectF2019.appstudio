@@ -23,13 +23,13 @@
   "footer": "", 
   "header": "", 
   "headerCols": 2, 
-  "height": "auto", 
+  "height": 152, 
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
   "id": "txtWelcome", 
   "inputmode": "", 
-  "left": 46, 
+  "left": 40, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -72,9 +72,9 @@
   "script": "", 
   "spellcheck": "true", 
   "style": "", 
-  "top": 163, 
+  "top": 168, 
   "validation": "", 
   "value": "", 
   "valueCols": 10, 
-  "width": "auto"
+  "width": 240
 }

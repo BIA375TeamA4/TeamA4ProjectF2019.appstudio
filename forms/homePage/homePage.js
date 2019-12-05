@@ -8,7 +8,7 @@ homePage.onshow=function(){
     userID = JSON.parse(req1.responseText)
     console.log(userID)
     localStorage.setItem("userID", userID)
-    txtWelcome.value = "Welcome, " + currentUser + "!"
+    txtWelcome.value = "Welcome to Without Further Delay, " + currentUser + "!"
 }
 
 /* let currentUserID = localStorage.getItem("userID") */

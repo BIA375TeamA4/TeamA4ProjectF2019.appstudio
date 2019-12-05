@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "btnCreateNewEntry", 
-  "left": 272, 
+  "left": 280, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 88, 
+  "top": 8, 
   "value": "+", 
   "width": 40
 }

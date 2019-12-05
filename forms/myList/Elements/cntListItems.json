@@ -38,7 +38,7 @@
   "hidden": "", 
   "id": "cntListItems", 
   "justifyContent": "", 
-  "left": 24, 
+  "left": "0", 
   "mAll": "20", 
   "mBottom": "", 
   "mLeft": "", 
@@ -62,6 +62,6 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 280, 
+  "top": "230", 
   "width": 256
 }
