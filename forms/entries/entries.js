@@ -2,8 +2,7 @@
    LABEL GROUP (or other item) MUST DISPLAY EXISTING ENTRIES FOR ITEM SELECTED */
 
 entries.onshow=function(){
-    let sampleUser = localStorage.getItem("username")
-    let query10 = "SELECT item.name FROM item JOIN user ON item.user_id = user.user_id WHERE user.username = " + '"' + sampleUser + '"'
+    let query10 = "SELECT item.name FROM item JOIN user ON item.user_id = user.user_id WHERE user.username = " + '"' + localStorage.getItem("username") + '"'
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + query10)
       if (req1.status == 200) { 
         results9 = JSON.parse(req1.responseText)
@@ -24,43 +23,48 @@ dpdnSelectItem.onclick=function(selection1){
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + query8)
     if (req1.status == 200) { 
        results = JSON.parse(req1.responseText)
-       console.log(results)
-       localStorage.setItem("entryData", JSON.stringify(results))
+        lstEntries.clear()
+       for (i = 0; i <= results.length - 1; i++)
+        lstEntries.addItem(results[i],"active","default")
     }   
-    }
+}
+}
+
+/* var data2 = JSON.parse(localStorage.getItem("entryData")
 
 var listColumns1 = [  
-            {title: "Entry"},
+            {title: "Entry"}
         ]
 
 function Main1() { 
-  updateTable()
+  updateTable1()
 }
 
 function updateTable1() { 
   dtblListEntries.settings.columns = listColumns1
-  dtblListEntries.settings.data = data2
+  dtblListEntries.settings.data = JSON.parse(localStorage.getItem("entryData"))
   dtblListEntries.build()
 }
 
 function loadTable1() {  
-  var table = $("#dtblListIEntries").DataTable()
+  var table1 = $("#dtblListIEntries").DataTable()
   table.rows.add(dtblListEntries.settings.data).draw()
   }
+
 }
-var data2 = JSON.parse(localStorage.getItem("entryData"))
+}
 
 dtblListEntries.onclick = function(event1) { 
   if(typeof(event1.target._DT_CellIndex) != "object" ) { 
      return }
   var row,col
-  row1 = event1.target._DT_CellIndex.row
-  col1 = event1.target._DT_CellIndex.column
-  NSB.MsgBox("Value is "  +  data2[row1][col1]  +  ".")
+  row = event1.target._DT_CellIndex.row
+  col = event1.target._DT_CellIndex.column
+  NSB.MsgBox("Value is "  +  JSON.parse(localStorage.getItem("entryData"))[row][col]  +  ".")
 }
 
 
-
+*/
 
 btnCreateNewEntry.onclick=function(){
   ChangeForm(newEntry)
