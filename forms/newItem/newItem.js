@@ -3,7 +3,7 @@ btnSubmitNewItem.onclick=function(){
     let createNewItemLocation = inptNewItemLocation.value
     let createNewItemDescription = inptNewItemDescription.value
     let createNewItemDate = inptNewItemDate.value
-    let createNewItemUserID = currentUserID
+    let createNewItemUserID = localStorage.getItem("username")
     let blankValueNewItem = ""
     let queryItem1 = "INSERT into item (name, location, description, date, user_id) values (" + "'"+ createNewItemName + "', '" + createNewItemLocation + "', '" + createNewItemDescription + "', '" + createNewItemDate + "', '" + createNewItemUserID + "');"
   

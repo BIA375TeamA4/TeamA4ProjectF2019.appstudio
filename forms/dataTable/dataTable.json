@@ -2,120 +2,121 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "beige", 
+  "background": "", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
+  "centerScreen": "false", 
   "children": [
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "dataTable", 
         "Elements", 
-        "lblHeader3.json"
+        "Header1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "dataTable", 
         "Elements", 
-        "btnCreateNewEntry.json"
+        "Container1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "dataTable", 
         "Elements", 
-        "btnHome3.json"
+        "Button1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "dataTable", 
         "Elements", 
-        "btnMap3.json"
+        "Button21.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "dataTable", 
         "Elements", 
-        "btnMyList3.json"
+        "Button31.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "dataTable", 
         "Elements", 
-        "btnEntry3.json"
+        "Button4.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "dataTable", 
         "Elements", 
-        "btnProfile3.json"
+        "Fliptoggle1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "dataTable", 
         "Elements", 
-        "dpdnSelectItem.json"
+        "Fliptoggle4.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "entries", 
+        "dataTable", 
         "Elements", 
-        "lstEntries.json"
+        "Fliptoggle5.json"
       ]
     }
   ], 
   "class": "", 
-  "designHeight": 0, 
-  "designWidth": 0, 
+  "designHeight": 460, 
+  "designWidth": 800, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "entries", 
+  "id": "dataTable", 
   "language": "JavaScript", 
-  "left": "0", 
+  "left": 0, 
   "locked": false, 
   "modal": "false", 
   "onhide": "", 
-  "onkeypress": "entries.onkeypress()", 
+  "onkeypress": "", 
   "onresize": "", 
   "onshow": "", 
   "openMode": "none", 
   "parentForm": "", 
-  "position": "absolute", 
+  "position": "relative", 
   "script": null, 
-  "scroll_options": "mouseWheel:true, bounce:true, zoom:false", 
+  "scroll_options": "mouseWheel:true,  bounce:true, zoom:false", 
   "scrolling": "false", 
   "setFocusID": "", 
   "style": "", 
   "theme": "", 
-  "top": "0", 
-  "width": 320
+  "top": 0, 
+  "width": "800"
 }

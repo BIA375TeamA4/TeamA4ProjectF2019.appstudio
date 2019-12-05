@@ -1,7 +1,8 @@
-let currentUser = localStorage.getItem("username");
-
 
 homePage.onshow=function(){
+    let currentUser = localStorage.getItem("username");
+    let fullName = localStorage.getItem("fullName")
+    console.log(fullName)
     let queryItem1 = "SELECT user_id FROM user WHERE username = " + '"' + currentUser + '"'
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + queryItem1)
     userID = JSON.parse(req1.responseText)
@@ -10,7 +11,7 @@ homePage.onshow=function(){
     txtWelcome.value = "Welcome, " + currentUser + "!"
 }
 
-let currentUserID = localStorage.getItem("userID")
+/* let currentUserID = localStorage.getItem("userID") */
 
 
 /* STILL NEED MORE CONTENT */

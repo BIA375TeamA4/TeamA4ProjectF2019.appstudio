@@ -125,6 +125,22 @@
             "map", 
             "map.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "dataTable", 
+            "dataTable.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Form1", 
+            "Form1.json"
+          ]
         }
       ], 
       "configxml": null, 
