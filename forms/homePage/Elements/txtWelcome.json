@@ -65,7 +65,7 @@
   "popPosition": "", 
   "popStyle": "popover", 
   "popTitle": "Title", 
-  "readonly": "", 
+  "readonly": "readonly", 
   "required": "", 
   "right": "auto", 
   "rows": "", 

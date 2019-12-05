@@ -10,6 +10,7 @@ btnLogin.onclick=function(){
     if (req1.status == 200) { 
         results = JSON.parse(req1.responseText)
         console.log(results)
+        localStorage.setItem("fullName", results[0][1])
         
     if (results.length == 0)   
         lblNoAccount.value = "There is no username or password associated with this account, please click Create New Account."
@@ -18,6 +19,7 @@ btnLogin.onclick=function(){
       } 
    } 
 }
+
 
 btnCreateNewAccount.onclick=function(){
   ChangeForm(createNewAccount)
