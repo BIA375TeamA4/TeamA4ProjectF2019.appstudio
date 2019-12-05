@@ -28,8 +28,8 @@
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
-  "id": "btnMyList1", 
-  "left": 136, 
+  "id": "btnHomeCopy", 
+  "left": 13, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-sm", 
   "style": "", 
   "toggleControl": "", 
-  "top": 408, 
-  "value": "My List", 
+  "top": 410, 
+  "value": "Home", 
   "width": 56
 }

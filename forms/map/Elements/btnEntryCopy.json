@@ -28,8 +28,8 @@
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
-  "id": "btnHome1", 
-  "left": 8, 
+  "id": "btnEntryCopy", 
+  "left": 200, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-sm", 
   "style": "", 
   "toggleControl": "", 
-  "top": 424, 
-  "value": "Home", 
+  "top": 411, 
+  "value": "Entry", 
   "width": 56
 }

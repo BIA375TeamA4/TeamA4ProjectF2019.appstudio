@@ -28,8 +28,8 @@
   "hidden": "", 
   "icon": "", 
   "iconTitle": "", 
-  "id": "btnProfile1", 
-  "left": 264, 
+  "id": "btnMyListCopy", 
+  "left": 143, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-sm", 
   "style": "", 
   "toggleControl": "", 
-  "top": 424, 
-  "value": "Profile", 
+  "top": 403, 
+  "value": "My List", 
   "width": 56
 }
