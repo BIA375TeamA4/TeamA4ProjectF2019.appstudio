@@ -58,6 +58,14 @@
           "!type": "External", 
           "file": [
             "forms", 
+            "map", 
+            "map.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
             "myList", 
             "myList.json"
           ]
@@ -92,54 +100,6 @@
             "forms", 
             "profilePage", 
             "profilePage.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "exampleDRAWfromOrmond", 
-            "exampleDRAWfromOrmond.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "testDB", 
-            "testDB.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "dropdownDemo", 
-            "dropdownDemo.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "map", 
-            "map.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "dataTable", 
-            "dataTable.json"
-          ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "Form1", 
-            "Form1.json"
           ]
         }
       ], 

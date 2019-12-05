@@ -1,5 +1,3 @@
- //For more documentation on the options, see
- //https://developers.google.com/maps/documentation/javascript/reference?csw=1
  var marker;
  var infowindow;
 
@@ -26,4 +24,25 @@ btnLocation.onclick = function() {
  };
 
 
+
+
+btnHome4Copy.onclick=function(){
+  ChangeForm(homePage)
+}
+
+
+
+
+btnMyList4Copy.onclick=function(){
+  ChangeForm(myList)
+}
+
+btnEntry4Copy.onclick=function(){
+  ChangeForm(entries)
+}
+
+
+btnProfile4Copy.onclick=function(){
+  ChangeForm(profilePage)
+}
 

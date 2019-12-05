@@ -3,9 +3,8 @@ btnSubmitNewItem.onclick=function(){
     let createNewItemLocation = inptNewItemLocation.value
     let createNewItemDescription = inptNewItemDescription.value
     let createNewItemDate = inptNewItemDate.value
-    let createNewItemUserID = localStorage.getItem("username")
     let blankValueNewItem = ""
-    let queryItem1 = "INSERT into item (name, location, description, date, user_id) values (" + "'"+ createNewItemName + "', '" + createNewItemLocation + "', '" + createNewItemDescription + "', '" + createNewItemDate + "', '" + createNewItemUserID + "');"
+    let queryItem1 = "INSERT into item (name, location, description, date, user_id) values (" + "'"+ createNewItemName + "', '" + createNewItemLocation + "', '" + createNewItemDescription + "', '" + createNewItemDate + "', '" + localStorage.getItem("userID") + "');"
   
     if (createNewItemName != blankValueNewItem && createNewItemLocation != blankValueNewItem) {
         req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + queryItem1)
