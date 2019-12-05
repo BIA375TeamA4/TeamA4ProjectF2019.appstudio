@@ -3,7 +3,7 @@
   "HTML": null, 
   "action": "", 
   "attributes": "", 
-  "background": "", 
+  "background": "beige", 
   "backgroundimage": "", 
   "borderColor": "gray", 
   "borderStyle": "solid", 
@@ -35,7 +35,7 @@
         "forms", 
         "map", 
         "Elements", 
-        "btnHomeCopy.json"
+        "btnHome4Copy.json"
       ]
     }, 
     {
@@ -44,7 +44,7 @@
         "forms", 
         "map", 
         "Elements", 
-        "btnMapCopy.json"
+        "btnMap4Copy.json"
       ]
     }, 
     {
@@ -53,7 +53,7 @@
         "forms", 
         "map", 
         "Elements", 
-        "btnMyListCopy.json"
+        "btnMyList4Copy.json"
       ]
     }, 
     {
@@ -62,7 +62,16 @@
         "forms", 
         "map", 
         "Elements", 
-        "btnEntryCopy.json"
+        "btnEntry4Copy.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "map", 
+        "Elements", 
+        "btnProfile4Copy.json"
       ]
     }
   ], 
