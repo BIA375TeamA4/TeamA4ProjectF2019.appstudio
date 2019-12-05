@@ -1,3 +1,4 @@
+
 myList.onshow=function(){
     let queryItem1 = "SELECT name, location, description, date FROM user_bucket_list WHERE user_id = " + '"' + localStorage.getItem("userID") + '"'
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=tpm62822&pass=Beta#118&database=375groupa4&query=" + queryItem1)
